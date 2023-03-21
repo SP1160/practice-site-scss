@@ -1,0 +1,518 @@
+/* GRIFTER bold 40px (LOGO) */
+@font-face {
+  font-family: "GRIFTER";
+  font-weight: 700;
+  font-size: 40px;
+  src: url(../../fonts/grifterbold.otf);
+}
+/* Glory regular 20px (nav/footer) */
+@font-face {
+  font-family: "Glory";
+  font-weight: 400;
+  font-size: 20px;
+  src: url(../../fonts/glory_regular.ttf);
+}
+/* Proxima Nova bold 40px (promo title text) */
+@font-face {
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  font-size: 48px;
+  src: url(../../fonts/proximanova_bold.otf);
+}
+/* Proxima Nova bold 24px (promo second text) */
+@font-face {
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  font-size: 24px;
+  src: url(../../fonts/proximanova_bold.otf);
+}
+/* Open Sans bold 20 px (main text) */
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 20px;
+  src: url(../../fonts/opensans_bold.ttf);
+}
+/* Open Sans regular 18 px (detailed) */
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  src: url(../../fonts/opensans_regular.ttf);
+}
+/* Proxima Nova regular 16px (detailed) */
+@font-face {
+  font-family: "Proxima Nova";
+  font-weight: 400;
+  font-size: 16px;
+  src: url(../../fonts/proximanova_regular.ttf);
+}
+/* GRIFTER bold 24px (main text) accent */
+@font-face {
+  font-family: "GRIFTER";
+  font-weight: 700;
+  font-size: 24px;
+  src: url(../../fonts/grifter_bold.otf);
+}
+/* COLORS */
+/* FONTS */
+.title {
+  font-family: "GRIFTER";
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.footer__copy, .footer__socail, .footer__rules, .header__menu-item {
+  font-family: "Glory", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.controllers__content, .comfort__title, .promo__title {
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.earcandy__text, .promo__description {
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.swiper__title, .settings__title, .comfort__description {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.swiper__subtext, .settings__info, .comfort__card-info {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.properties__list-title, .properties__list-description {
+  font-family: "Proxima Nova";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* OTHERS */
+.controllers__content-bg, .comfort__title-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+}
+
+html,
+body {
+  background-color: #2c3333;
+  color: #ffffff;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex: 0 0 auto;
+}
+
+.container {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 0 13px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class] {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* COLORS */
+/* FONTS */
+.title {
+  font-family: "GRIFTER";
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.footer__copy, .footer__socail, .footer__rules, .header__menu-item {
+  font-family: "Glory", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.controllers__content, .comfort__title, .promo__title {
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.earcandy__text, .promo__description {
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.swiper__title, .settings__title, .comfort__description {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.swiper__subtext, .settings__info, .comfort__card-info {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.properties__list-title, .properties__list-description {
+  font-family: "Proxima Nova";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* OTHERS */
+.controllers__content-bg, .comfort__title-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+}
+.header__menu-list {
+  display: flex;
+  flex-direction: row;
+  gap: 0 30px;
+}
+.header__menu-item {
+  line-height: 23px;
+}
+.header__menu-link {
+  color: #cbe4de;
+  transition: all 0.3s;
+}
+.header__menu-link:hover {
+  color: rgba(203, 228, 222, 0.25);
+}
+.header__btn {
+  background-color: transparent;
+  border: none;
+  border-radius: 9px;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.header__btn:hover {
+  border-radius: 9px;
+  background-color: rgba(203, 228, 222, 0.25);
+}
+
+.footer__inner {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.footer .title--line-grey {
+  padding: 24px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+}
+.footer__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 34px 0;
+}
+.footer__copy, .footer__socail, .footer__rules {
+  color: #cbe4de;
+}
+
+.title {
+  line-height: 42px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.promo__inner {
+  margin: 196px 0 267px 0;
+  display: flex;
+  gap: 0 50px;
+}
+.promo__inner-bg {
+  background-image: url(../../img/background/XM4-background.svg);
+  background-repeat: no-repeat;
+  background-position-y: 18px;
+}
+.promo__items {
+  max-width: 580px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px 0;
+  padding-top: 41px;
+}
+.promo__btn {
+  padding: 0 45px 0 62px;
+  max-height: 54px;
+}
+.promo__pre-order-btn {
+  max-width: 144px;
+  background-color: black;
+  border: none;
+  border-radius: 9px;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.promo__pre-order-btn:hover {
+  border-radius: 9px;
+  background-color: rgba(203, 228, 222, 0.25);
+}
+.promo__title {
+  line-height: 49px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+  padding: 0 50px 0 50px;
+}
+.promo__description {
+  line-height: 29px;
+  color: #b8b8b8;
+  padding: 0 100px 0 54px;
+}
+.promo__img {
+  margin-top: -198px;
+}
+
+.comfort__inner {
+  margin-bottom: 93px;
+}
+.comfort__promo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px 0;
+}
+.comfort__title {
+  line-height: 49px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+  padding: 50px 786px 252px 50px;
+}
+.comfort__title-bg {
+  background-image: url(../../img/background/headphones-comfort-background.svg);
+  max-height: 400px;
+  mix-blend-mode: luminosity;
+}
+.comfort__description {
+  line-height: 27px;
+  text-align: center;
+  padding: 0 170px 30px 170px;
+}
+.comfort__cards {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 30px;
+  padding: 0 105px 0 105px;
+}
+.comfort__card {
+  display: flex;
+  align-items: center;
+  gap: 0 30px;
+  border-bottom: 1px solid #ffffff;
+}
+.comfort__card-img {
+  padding-left: 20px;
+}
+.comfort__card-info {
+  line-height: 25px;
+  padding: 10px 10px 10px 0;
+}
+
+.controllers__content {
+  line-height: 49px;
+  text-shadow: 0px 4px 5px #000000;
+  padding: 201px 152px 201px 702px;
+  margin-bottom: 70px;
+}
+.controllers__content-bg {
+  background-image: url(../../img/background/controllers-background.svg);
+  background-color: #192020;
+}
+
+.settings__inner {
+  padding: 0 105px 0 105px;
+  margin-bottom: 70px;
+}
+.settings__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px 0;
+  padding: 0 125px 21px 125px;
+}
+.settings__title {
+  line-height: 27px;
+}
+.settings__info {
+  text-align: center;
+}
+
+.swiper {
+  background: none;
+}
+.swiper-slide {
+  text-align: center;
+  align-items: center !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+.swiper__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+  text-align: center;
+  max-width: 240px;
+  min-height: 149px;
+}
+.swiper__title {
+  line-height: 27px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.swiper-button-next {
+  transition: all 0.3s;
+}
+.swiper-button-next::after {
+  content: url(../../img/slider/buttons/slider-btn-right.svg) !important;
+  padding-right: 37px;
+  border: 0;
+  max-height: 106px;
+}
+.swiper-button-next:hover {
+  opacity: 0.6;
+}
+.swiper-button-prev {
+  transition: all 0.3s;
+}
+.swiper-button-prev::after {
+  content: url(../../img/slider/buttons/slider-btn-left.svg) !important;
+  padding-left: 37px;
+  border: 0;
+  max-height: 106px;
+}
+.swiper-button-prev:hover {
+  opacity: 0.6;
+}
+
+.properties {
+  margin-bottom: 100px;
+}
+.properties__inner {
+  display: flex;
+  gap: 0 30px;
+  padding: 16px 65px;
+}
+.properties__img {
+  border-radius: 25px;
+}
+.properties__list {
+  display: flex;
+  flex-direction: column;
+  gap: 21px 0;
+}
+.properties__list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px 0;
+}
+.properties__list-title, .properties__list-description {
+  line-height: 19px;
+}
+.properties__list-description {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.earcandy__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 70px 0;
+  padding-bottom: 130px;
+}
+.earcandy__about {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 0 80px;
+}
+.earcandy__partners {
+  display: flex;
+  gap: 0 80px;
+}
+.earcandy__text {
+  line-height: 29px;
+}
+.earcandy__company-name {
+  color: #000000;
+}

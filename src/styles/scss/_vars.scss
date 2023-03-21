@@ -1,0 +1,73 @@
+/* COLORS */
+
+$white: #ffffff;
+$white-grey: #cbe4de;
+$black: #000000;
+$grey: #b8b8b8;
+$white-grey-25: rgba(203, 228, 222, 0.25);
+$white-75: rgba(255, 255, 255, 0.7);
+$black-gery-buttom: #545f5d;
+$orange: #f58e49;
+$grey-background: #666666;
+$background: #2c3333;
+$white-70: rgba(255, 255, 255, 0.7);
+$background-grey-dark: #192020;
+
+/* FONTS */
+
+%GRIFTER-bold-40px {
+  font-family: "GRIFTER";
+  font-weight: 700;
+  font-size: 40px;
+}
+
+%Glory-regular-20px {
+  font-family: "Glory", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+%Proxima-Nova-bold-40px {
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  font-size: 40px;
+}
+
+%Proxima-Nova-bold-24px {
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  font-size: 24px;
+}
+
+%Open-Sans-bold-20px {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+%Open-Sans-regular-18px {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+%Proxima-Nova-regular-16px {
+  font-family: "Proxima Nova";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+%GRIFTER-bold-24px {
+  font-family: "GRIFTER";
+  font-weight: 700;
+  font-size: 24px;
+}
+
+/* OTHERS */
+
+%background-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 25px;
+}
