@@ -6,7 +6,7 @@ Designed for a monitor width of 1444px.
 # Getting Started
 To get started with this project, you will need to follow these steps:
 
-1. Clone the repository to your local machine using <b>`git clone https://github.com/aqua116/practice-site-scss.git`</b>
+1. Clone the repository to your local machine using <b>`git clone https://github.com/SP1160/practice-site-scss.git`</b>
 2. Navigate to the project directory using <b>`cd your-repository`.</b>
 3. Install the necessary dependencies using <b>`npm install`.</b>
 
