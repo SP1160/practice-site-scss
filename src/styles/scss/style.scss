@@ -364,3 +364,24 @@
     color: $orange;
   }
 }
+
+.scroll-btn {
+  background-color: $grey-background;
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: none;
+  place-items: center;
+  &__arrow {
+    padding: 8px 8px;
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    background-color: $background;
+    border-radius: 50%;
+  }
+}

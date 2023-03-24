@@ -1,6 +1,7 @@
 # practice-site-scss
 
 This is a website project that uses SCSS and a slider package from NPM.
+Designed for a monitor width of 1444px.
 
 # Getting Started
 To get started with this project, you will need to follow these steps:
